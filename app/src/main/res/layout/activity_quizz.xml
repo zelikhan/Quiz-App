@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".quizz_activity"
+    android:background="@drawable/background">
+
+
+    <Button
+        android:id="@+id/Simple_q"
+        android:layout_width="242dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="99dp"
+        android:layout_marginTop="75dp"
+        android:layout_marginEnd="99dp"
+        android:layout_marginBottom="522dp"
+        android:background="@drawable/button_colour_roundness"
+        android:fontFamily="@font/amaranth_bold"
+        android:text="Simple Questions"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.517"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bar1"
+        app:layout_constraintVertical_bias="0.444" />
+
+    <Button
+        android:id="@+id/Rate_app"
+        android:layout_width="242dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="99dp"
+        android:layout_marginTop="444dp"
+        android:layout_marginEnd="99dp"
+        android:layout_marginBottom="144dp"
+        android:background="@drawable/button_colour_roundness"
+        android:fontFamily="@font/amaranth_bold"
+        android:text="Rate App"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.517"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bar1"
+        app:layout_constraintVertical_bias="0.412" />
+
+    <Button
+        android:id="@+id/Tough_q"
+        android:layout_width="242dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="99dp"
+        android:layout_marginTop="208dp"
+        android:layout_marginEnd="99dp"
+        android:background="@drawable/button_colour_roundness"
+        android:fontFamily="@font/amaranth_bold"
+        android:text="Tough Questions"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.517"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bar1"
+        app:layout_constraintVertical_bias="0.092" />
+
+    <TextView
+        android:id="@+id/bar1"
+        android:layout_width="411dp"
+        android:layout_height="63dp"
+        android:background="#CE3A8AB9"
+        android:gravity="center"
+        android:text="@string/crack_interview"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/See_others"
+        android:layout_width="242dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="99dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="99dp"
+        android:background="@drawable/button_colour_roundness"
+        android:fontFamily="@font/amaranth_bold"
+        android:text="See our Other Apps"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.517"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bar1"
+        app:layout_constraintVertical_bias="0.337" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

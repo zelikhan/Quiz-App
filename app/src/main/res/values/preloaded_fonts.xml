@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/</item>
+        <item>@font/amaranth_bold</item>
+        <item>@font/arbutus_slab</item>
+        <item>@font/pacifico</item>
+    </array>
+</resources>
